@@ -148,7 +148,7 @@ namespace UnitTestsForCalculator
             double actual = sut.Divide(1, 0);
             Console.Out.WriteLine(actual);
             //Verify
-            //Assert.Fail("The Divide functionality is not working correctly.");
+            Assert.Fail("The Divide functionality is not working correctly.");
         }
 
 
